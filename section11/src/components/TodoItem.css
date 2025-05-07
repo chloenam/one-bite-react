@@ -1,0 +1,26 @@
+.box__todo-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+.box__todo-item input {
+  width: 20px;
+}
+.box__todo-item .text__content {
+  flex: 1;
+}
+.box__todo-item .text__date {
+  font-size: 14px;
+  color: gray;
+}
+
+.box__todo-item button {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: gray;
+  cursor: pointer;
+}
